@@ -1,6 +1,6 @@
 FROM haproxy:1.5
-MAINTAINER XGFan
+MAINTAINER 40huo
 
-EXPOSE 9991 9992 9993
+EXPOSE 40001 40002 40003
 
 COPY haproxy.cfg /usr/local/etc/haproxy/haproxy.cfg
